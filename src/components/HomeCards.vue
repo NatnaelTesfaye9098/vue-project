@@ -1,5 +1,5 @@
 <script setup>
-    import Card from '.Card.vue';
+    import Card from './Card.vue';
 </script>
 <template>
     <section class="py-4">
@@ -7,7 +7,7 @@
             <Card>
                 <h2 class="text-2xl font-bold">For Employees</h2>
                 <p class="mt-2 mb-4">Browse our jobs and start your career today</p>
-                <a href="" class="inline-block bg-black rounded-lg text-white px-3 py-2 w-auto box-border hover:bg-gray-800">Browse Jobs</a>
+                <a href="" class="inline-block bg-black rounded-lg text-white px-3 py-2 w-auto box-border hover:bg-gray-600">Browse Jobs</a>
             </Card>
             <Card bg="bg-green-200">
                 <h2 class="text-2xl font-bold">For Employers</h2>
