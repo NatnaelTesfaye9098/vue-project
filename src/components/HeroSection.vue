@@ -4,19 +4,19 @@
     defineProps({
         title:{
             type: String,
-            default: "Become a Vue Dev"
+            default: "Jobs That Match You"
         },
         subtitle:{
             type: String,
-            default: "Find the Vue job that fits your skills and needs"
+            default: "Browse carefully selected listings that match your skills and goals"
         }
     })
 </script>
 
 <template>
     <section class="bg-green-700 py-20 mb-4 text-white">
-        <div class="flex flex-col items-center ">
-            <h1 class="text-4xl font-extrabold sm:text-5xl md:text-6xl font-sans">{{ title }}</h1>
+        <div class="flex flex-col items-center leading-loose">
+            <h1 class="text-3xl font-extrabold sm:text-5xl md:text-6xl font-sans">{{ title }}</h1>
             <p class="text-xl my-4">{{ subtitle }}</p>
         </div>
     </section>
